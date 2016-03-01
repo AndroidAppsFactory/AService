@@ -19,10 +19,18 @@
             </intent-filter>
         </activity>
 
+        <!-- SERVICE -->
         <service
             android:name=".MyService"
             android:enabled="true"
             android:exported="true"></service>
+
+        <!-- BroadCastor-->
+        <receiver android:name="MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.myStaff.CUSTOM_INTENT"></action>
+            </intent-filter>
+        </receiver>
 
     </application>
 
