@@ -4,4 +4,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="myValentineTitle">Be My Valentine</string>
     <string name="UnderConstruction">App under Construction</string>
+    <string name="action_settings">Settings</string>
 </resources>

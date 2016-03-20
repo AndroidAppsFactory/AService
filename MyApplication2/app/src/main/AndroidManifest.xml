@@ -32,6 +32,12 @@
             </intent-filter>
         </receiver>
 
+
+        <!-- CONTENT PROVIDER -->
+        <provider
+            android:name="StudentsProvider"
+            android:authorities="com.myStaff.College" />
+
     </application>
 
 </manifest>
